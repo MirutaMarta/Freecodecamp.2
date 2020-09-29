@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/pr2.css"/>
+    <title>Build a Survey Form</title>
+</head>
+<body bgcolor="blue">
+<main>
+    <div id="a">
+      <h1 id="title"> Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>  
+    </div>
+    <div class="box blue-box">
+    <id id="survey-form">
+    <div id="b" >
+        <label id="name-label" for="name">Name</label>
+        <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required />
+        </div>
+   
+        <div id="b">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+        </div>
+          <div id="b">
+            <label id="number-label" for="number"
+              >Age</label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="16"
+              max="70"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>   
+    <div id="c">
+         <p>What genres of movies do you like?</p>
+    </div>
+
+    <div class="box red-box">
+    
+        <input
+       name="prefer"
+       value="Documentary film‎ "
+       type="checkbox"
+       class="input-checkbox"
+     />Documentary film‎ <br>
+
+    <input
+     name="prefer"
+     value="Drama (film and television)"
+     type="checkbox"
+     class="input-checkbox"
+    />Drama (film and television)<br>
+
+    <input
+    name="prefer"
+    value="Horror comedy‎ "
+    type="checkbox"
+    class="input-checkbox"
+    />Horror comedy‎ <br>
+    
+    <input
+    name="prefer"
+    value="Newsreels‎"
+    type="checkbox"
+    class="input-checkbox"
+  />Newsreels‎<br>
+  
+  <input
+    name="prefer"
+    value="Mafia film "
+    type="checkbox"
+    class="input-checkbox"
+  />Mafia film <br>
+  
+    </div>
+    <div id="c">
+        <p>Any comments or suggestions?</p>
+    </div>
+     <div  >   
+        <textarea 
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+     <div id="d">
+       <button type="submit">Submit</button>  
+     </div> 
+     
+    </form>
+</div>
+</main>
+</body>
+</html>
